@@ -2,7 +2,7 @@
     <h1 id="welcome"></h1>
 
     <form onsubmit="return checkAnswer(event)">
-        How many sun in the sky?
+        What is the Second color of the rainbow?
         <p><input type="text" id="answer" name="answer" /></p>
         <p><input type="submit" value="Check Answer" /></p>
     </form>
@@ -27,7 +27,7 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({ 
-                    "id": "answer2",
+                    "id": "answer5",
                     "data": document.getElementById("answer").value 
                 })
             })
